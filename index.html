@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Challenge 5 + 5 years</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="tec.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-chevron-circle-down" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Challenge 5 + 5 years</h1>
+        <p>Héctor Eduardo Garza Fraga<br> A00835812 Grupo 112  
+        </p>
+        
+
+    </div>
+    </section>
+
+
+
+
+<!---------facilities--------->
+<section class="facilities">
+    <h1>Collage</h1>
+    <p>Fotografías que me proyectan a mí hoy, en 5 y en 10 años</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="fraga.jpg">
+            <h3>Actual</h3>
+            <p>Me considero alguien tranquilo, equitativo e interesado por aprender
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="programar.jpg">
+            <h3>5 años</h3>
+            <p>En 5 años, me visualizo consiguiendo experiencia en progrmación
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="ciudad.jpg">
+            <h3>10 años</h3>
+            <p>En una década, espero haber recolectado los conocimientos necesarios para lograr resultados conforme mi próposito de vida
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!---------Call to action--------->
+
+<section class="cta">
+    <h1>Innovar el funcionamiento de las ciudades que conforman el área metropolitana de Monterrey a través de mis conocimientos de
+        programación e inteligencia artificial en vista de preservar los recursos más importantes del ser humano: el tiempo y el medio ambiente
+
+    </h1>
+    
+</section>
+
+
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-300px"
+    }
+
+</script>
+
+</body>
+</html>
